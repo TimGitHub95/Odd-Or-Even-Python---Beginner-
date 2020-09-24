@@ -1,0 +1,9 @@
+#Odd Or Even
+
+print("Hello, welcome to the game of Odd or Even.")
+
+num = int(input("Please Choose a number: "))
+if num %2 == 0:
+    print("This is even")
+else:
+    print("This is Odd!")
